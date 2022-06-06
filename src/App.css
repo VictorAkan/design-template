@@ -1,10 +1,125 @@
 .App {
   text-align: center;
 }
+nav {
+  background-color: rgb(250, 250, 250);
+  z-index: 10;
+}
+.promo {
+  margin-top: 7.9rem;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.lead_link {
+  margin-left: auto;
+}
+.promo_title h1 {
+  font-size: 3.9rem;
+  font-family: Fira Sans, sans-serif;
+  font-weight: 500;
+  margin-top: 3rem;
+}
+.promo_title p {
+  color: grey;
+}
+.promo_title button {
+  background-color: #0d6efd;
+  color: white;
+  border: 1px solid #0d6efd;
+}
+.promo_title button:hover {
+  background-color: #0a5edd;
+}
+.promo-img {
+  margin-top: 10rem;
+  position: relative;
+}
+.bg-img {
+  margin-left: 7rem;
+  /* position: relative; */
+}
+.play a {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-decoration: none;
+  color: black;
+}
+.play {
+  position: absolute;
+  left: 10rem;
+  top: 6rem;
+}
+.ld-div {
+  text-align:right;
+  padding-right: 1rem;
+}
+.d-text {
+  color: gray;
+}
+.f-div {
+  position: absolute;
+  background-color: white;
+  height: 10rem;
+  /* width: 10rem; */
+  bottom: 3rem;
+  top: 47.9rem;
+}
+.sd-div {
+  text-align: center;
+}
+.f-sub-div {
+  position: absolute;
+  background-color: white;
+  height: 15rem;
+  top: 43rem;
+  left: 6.6rem;
+}
+.f-sub-div i {
+  font-size: 4rem;
+}
+.d-btn {
+  background-color: transparent;
+  border: none;
+}
+
+@media (max-width:749px) {
+  .bg-img {
+    margin-left: 0px;
+    width: 20rem;
+  }
+  .promo-title {
+    align-items: center;
+  }
+  .f-div {
+    top: 70.9rem;
+  }
+  .promo-img {
+    margin-top: 5rem;
+  }
+  .fd-div {
+    text-align: center;
+  }
+  .ld-div {
+    text-align: center;
+  }
+  .f-sub-div {
+    top: 70rem;
+    left: 0rem;
+    height: 52rem;
+  }
+  .play {
+    top: 0.6rem;
+  }
+}
+
+@media (max-width:411px) and (min-width:333px) {
+  .bg-img {
+    width: 22rem;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
